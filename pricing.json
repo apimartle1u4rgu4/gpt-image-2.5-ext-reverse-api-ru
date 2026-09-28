@@ -1,0 +1,29 @@
+{
+  "repo": "gpt-image-2.5-ext-reverse-api-ru",
+  "model": "gpt-image-2.5-ext",
+  "display": "GPT-Image-2.5 Ext",
+  "route": "reverse",
+  "variant": "gpt-image-2.5-ext",
+  "snapshot": "2026-09-28",
+  "unit": "usd_per_image",
+  "tiers": {
+    "1K": 0.0085,
+    "2K": 0.014,
+    "4K": 0.021
+  },
+  "variants": {
+    "flare": [
+      "1K",
+      "2K",
+      "4K"
+    ],
+    "sunburst": [
+      "1K",
+      "2K",
+      "4K"
+    ]
+  },
+  "official_counterpart": "gpt-image-2.5-flare / gpt-image-2.5-sunburst",
+  "effective_note": "official route billed at ×0.8 group ratio; reverse route is flat per unit",
+  "source": "https://go.apimart.ai/k-56f4ac"
+}
