@@ -1,35 +1,29 @@
 {
-  "id": "gpt-image-2.5-ext",
+  "id": "gemini-3-pro-image-preview",
+  "alias": "nano-banana-pro-ext",
+  "official": "gemini-3-pro-image-preview-official",
   "source": "https://apimart.ai/en/pricing",
-  "extracted_at": "2026-10-13T06:43:00Z",
+  "extracted_at": "2026-10-14T06:49:44Z",
   "prices": {
-    "flare@1K": {
-      "list": 0.010625,
-      "effective": 0.0085
+    "default": {
+      "list": 0.0375,
+      "effective": 0.03
     },
-    "flare@2K": {
-      "list": 0.0175,
-      "effective": 0.014
-    },
-    "flare@4K": {
-      "list": 0.02625,
-      "effective": 0.021
-    },
-    "sunburst@1K": {
-      "list": 0.010625,
-      "effective": 0.0085
-    },
-    "sunburst@2K": {
-      "list": 0.0175,
-      "effective": 0.014
-    },
-    "sunburst@4K": {
-      "list": 0.02625,
-      "effective": 0.021
+    "4K": {
+      "list": 0.05,
+      "effective": 0.04
     }
   },
-  "rates": {},
-  "unit": "usd_per_image",
-  "hook": "from $0.0085 per image (flare@1K $0.0085 · sunburst@1K $0.0085 · flare@2K $0.014)",
-  "model_page": "https://apimart.ai/model/gpt-image-2-5"
+  "official_prices": {
+    "per_million_tokens": {
+      "effective": {
+        "text_input": 1.6,
+        "cached_text_input": 0,
+        "image_input": 1.6,
+        "cached_image_input": 0,
+        "text_output": 9.6,
+        "image_output": 96
+      }
+    }
+  }
 }
